@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="description" name="description">
+    <meta name="google" content="notranslate">
+    <meta content="Mashup templates have been developped by Orson.io team" name="author">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta property="og:title" content="Expresso Mobilidade - Home">
+    <meta property="og:image" content="http://localhost/expresso/externo-expresso/assets/external/expresso-externo.svg">
+    <meta property="og:description"
+      content="O Expresso Mobilidade é um projeto que visa melhorar o dia a dia do usuário de Transporte Público de Belo Horizonte e Região Metropolitana. Com uma interface simples e objetiva e recursos que proporcionam comodidade ao usuário, o Expresso é o mais novo serviço de mobilidade urbana na área">
+    <meta property="og:url" content="#">
+    <link href="./assets/images/favicon.svg" rel="icon">
+    <title>Home - Expresso Mobilidade</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/diferenciais.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+  </head>
+
+  <body id="body" data-spy="scroll" data-target=".fixed-top" style="font-family: 'Inter', sans-serif;">
+    <div class="overlay">
+      <div class="loader"></div>
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Content of header -->
+    <header>
+      <nav class="navbar navbar-default active">
+        <div class="container">
+          <!-- Menu -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+              aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html" title="">
+              <!-- <img src="./assets/images/favicon.svg" class="navbar-logo-img" alt=""> -->
+              <span>Expresso Mobilidade</span>
+              <!-- Titulo -->
+            </a>
+          </div>
+          <!-- end of navbar-header -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="menu-um menu-ativo"><a href="./index.html" title="" class="item-link">Home</a></li>
+              <li class="menu-dois"><a href="./signup.html" title="" class="item-link">Inscreva-se</a></li>
+              <li class="menu-tres"><a href="./login.html" title="" class="item-link">Entrar</a></li>
+            </ul>
+          </div>
+          <!-- end of collapse -->
+        </div>
+        <!-- end of colapse -->
+        <!-- end of menu -->
+      </nav>
+    </header>
+    <div class="hero-full-container background-image-container image-1 white-text-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 box-hero-full">
+            <div class="conteudo-hero-full">
+              <h1 class=""><span class="text-mobilidade texto-1">mobilidade_</span></h1>
+              <h2>Mobilidade: esta é a nossa Missão</h2>
+              <p>O Expresso Mobilidade é um projeto que visa melhorar o dia a dia do usuário de Transporte Público de
+                Belo Horizonte e Região Metropolitana. Com uma interface simples e objetiva e recursos que proporcionam
+                comodidade ao usuário, o Expresso é o mais novo serviço de mobilidade urbana na área
+              </p>
+              <br>
+              <br>
+              <div class="btn btn-default" id="btn1">
+                <div id="btn2"></div>
+                <a href="#" style="text-decoration: none;"><span class="botaoclicar">Fazer
+                    parte</span></a>
+              </div>
+            </div>
+            <!-- end of col-xs-12 -->
+            <!-- TODO - Minificar -->
+            <img src="./assets/images/local.svg" class="imagem-hero-full" alt="">
+          </div>
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+    </div>
+    <!-- end of hero-full-container -->
+    <!-- end content of header-->
+    <!-- Main content -->
+    <!-- About us -->
+    <style>
+      @media screen and (max-width: 480px) {
+        .principais-funcionalidades {
+          padding: 0 20px;
+        }
+
+        .styles_card__UJI2L {
+          padding: 20px;
+          margin-bottom: 10px;
+        }
+
+        .styles_card__UJI2L:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        #iframe-participar-do-expresso {
+          height: 1000px !important;
+        }
+      }
+    </style>
+    <main class="principal-conteudo">
+      <div class="section-container imgfundo">
+        <div class="container  ">
+          <div class="row">
+            <div class="">
+              <div class="text-center principais-funcionalidades">
+                <div class="box-centro">
+                  <section class="styles_section__77jal">
+                    <section class="styles_container__krr__ styles_container__ENKkv">
+                      <div class="">
+                        <div class="styles_headline__PYubz">
+                          <div class="styles_left__51JzU">
+                            <h3 class="styles_subtitle__a_j68 styles_subtitle__3J8nA">Conheça algumas funcionalidades do
+                              Expresso
+                            </h3>
+                          </div>
+                        </div>
+                        <ul class="styles_cards__5oFsb">
+                          <li class="styles_card__UJI2L" aria-label="">
+                            <div class="styles_icon__TbPvi">
+                              <img class="image" src="./assets/images/salvos-card.svg">
+                            </div>
+                            <h4 class="styles_title__HsusT">Favoritos</h4>
+                            <p class="styles_paragraph__G3DpU styles_description__yKTrq">Saiba onde estão as estações
+                              mais proxímas e como chegar
+                            </p>
+                          </li>
+                          <li class="styles_card__UJI2L" aria-label="">
+                            <div class="styles_icon__TbPvi">
+                              <div class="styles_icon__TbPvi">
+                                <img class="image" src="./assets/images/relatorio-card.svg">
+                              </div>
+                            </div>
+                            <h4 class="styles_title__HsusT">Relatório</h4>
+                            <p class="styles_paragraph__G3DpU styles_description__yKTrq">Tenha um relatório com os dados
+                              adicionados por você em seu cartão
+                            </p>
+                          </li>
+                          <li class="styles_card__UJI2L" aria-label="">
+                            <div class="styles_icon__TbPvi">
+                              <div class="styles_icon__TbPvi">
+                                <img class="image" src="./assets/images/recarga-card.svg">
+                              </div>
+                            </div>
+                            <h4 class="styles_title__HsusT">Recarga</h4>
+                            <p class="styles_paragraph__G3DpU styles_description__yKTrq">Procure por pontos onde possa
+                              carregar o cartão de passagem
+                            </p>
+                          </li>
+                          <li class="styles_card__UJI2L" aria-label="">
+                            <div class="styles_icon__TbPvi">
+                              <div class="styles_icon__TbPvi">
+                                <img class="image" src="./assets/images/onibus-card.svg">
+                              </div>
+                            </div>
+                            <h4 class="styles_title__HsusT">Linhas</h4>
+                            <p class="styles_paragraph__G3DpU styles_description__yKTrq">Pesquise as +900 linhas de
+                              onibus em Belo Horizonte e regiões
+                            </p>
+                          </li>
+                          <li class="styles_card__UJI2L" aria-label="">
+                            <div class="styles_icon__TbPvi">
+                              <div class="styles_icon__TbPvi">
+                                <img class="image" src="./assets/images/estacao-card.svg">
+                              </div>
+                            </div>
+                            <h4 class="styles_title__HsusT">Estações</h4>
+                            <p class="styles_paragraph__G3DpU styles_description__yKTrq">Saiba onde estão as estações
+                              mais proxímas e como chegar
+                            </p>
+                          </li>
+                          <li class="styles_card__UJI2L" aria-label="">
+                            <div class="styles_icon__TbPvi">
+                              <div class="styles_icon__TbPvi">
+                                <img class="image" src="./assets/images/cartao-card.svg">
+                              </div>
+                            </div>
+                            <h4 class="styles_title__HsusT">Cartões</h4>
+                            <p class="styles_paragraph__G3DpU styles_description__yKTrq">Adicione cartões e atualize
+                              você os gastos e as recargas
+                            </p>
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                  </section>
+                </div>
+                </section>
+              </div>
+              </section>
+            </div>
+            <!-- end of tex-center -->
+          </div>
+          <!-- end of col-xs-12 -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+      </div> <!-- end of section-container -->
+      <!-- end of about us -->
+      <div class="box-perguntas-frequentes">
+        <!-- <iframe src="#" id="iframe-participar-do-expresso" class="iframe-no-scroll" frameborder="0" width="100%"
+            height="800px"></iframe><br><br> -->
+        <h4 class="titulo-secao">Perguntas frequentes</h4>
+        <div class="accordions">
+          <div class="accordion">
+            <input type="checkbox" class="input-accordion" name="first" id="first" onclick="accordion(this.id)">
+            <label for="first" class="acc-label first"><span class="textoperguntas">Como funciona?</span></label>
+            <div class="acc-content">
+              Você precisa fazer login para ter acesso ao Expresso e sua funcionalidades. O login é bastante simples,
+              com uma conta no Google previamente cadastrada você já terá acesso.
+            </div>
+          </div>
+          <div class="accordion">
+            <input type="checkbox" class="input-accordion" name="second" id="second" onclick="accordion(this.id)">
+            <label for="second" class="acc-label second"><span class="textoperguntas">É necessário pagar?</span></label>
+            <div class="acc-content">
+              Não. O Expresso é totalmente gratís.
+            </div>
+          </div>
+          <div class="accordion">
+            <input type="checkbox" class="input-accordion" name="third" id="third" onclick="accordion(this.id)">
+            <label for="third" class="acc-label third"><span class="textoperguntas">O que o Expresso tem de
+                diferente?</span></label>
+            <div class="acc-content">
+              Com ele é possível gerenciar os seus cartões de transporte público independente do operador. Além disso,
+              você pode registrar o uso desses cartões, fazer consultas sobre as linhas, estações e pontos de recargas.
+            </div>
+          </div>
+          <div class="accordion">
+            <input type="checkbox" class="input-accordion" name="fourth" id="fourth" onclick="accordion(this.id)">
+            <label for="fourth" class="acc-label fourth"><span class="textoperguntas">Quais cidades o Expresso
+                abrange?</span></label>
+            <div class="acc-content">
+              Inicalmente mantemos informações das linhas municipais de Belo Horizonte e Sabará além das linhas do Ótimo
+              (Região Metropolitana de Belo Horizonte).
+            </div>
+          </div>
+        </div>
+      </div>
+      </div> <!-- end of tex-center -->
+      </div> <!-- end of col-xs-12 -->
+      </div> <!-- end of row -->
+      </div> <!-- end of container -->
+      </div> <!-- end of section-container -->
+      <!-- end of about us -->
+      <section class="hero">
+        <div class="container">
+          <img class="imag" src="./assets/images/un4 1.svg"
+            alt="Mulher mexendo no celular. Ao fundo dela há um tablet com um mapa.">
+          <div class="texto">
+            <span class="texto-contribuir">
+              Pesquise <span class="txtazul">quando</span><br> e onde quiser!
+            </span>
+            <p class="texto-contribuir-descricao">
+              Pesquise em qualquer lugar e a hora que quiser, basta ter acesso a internet.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="hero">
+        <div class="container">
+          <div class="texto">
+            <span class="texto-contribuir">
+              <span class="txtazul">Acessível</span><br> pra todo mundo
+            </span>
+            <p class="texto-contribuir-descricao">
+              Construído com o framework VLibras e usando boas práticas de programação, o Expresso é acessível para
+              todos.
+            </p>
+          </div>
+          <img class="imag" src="./assets/images/img-acessibilidade-expresso.svg" alt="Mulher em uma cadeira de rodas">
+        </div>
+      </section>
+      <!--  -->
+      <div class="counter">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <section class="novas-funcionalidades-e-atualizacoes">
+                <div>
+                  <span class="texto-descricao2">O que está por vir?</span>
+                </div>
+                <p>Novas funcionalides e melhorias serão adicionadas ao Expresso Mobilidade no futuro. Enquanto elas não
+                  chegam, sinta um gostinho do que está por vir:
+                </p>
+                <ul>
+                  <section class="fundo-funcio">
+                    <li>
+                      <span class="marcador-novo"></span>
+                      <span>
+                        <h4>Melhoria de desempenho</h4>
+                        Alguns dos códigos e scripts usados no Expresso Mobilidade serão refatorados e resultarão numa
+                        <mark>maior perfomance e melhor aproveitamento dos recursos disponíveis.</mark> Essa melhoria
+                        será visível nas consultas realizadas pelo usuário e navegação entre as páginas.
+                      </span>
+                    </li>
+                  </section>
+                  <section class="fundo-funcio">
+                    <li>
+                      <span class="marcador-novo"></span>
+                      <span>
+                        <h4>Sugestão de trajetos de acordo com o destino</h4>
+                        Este recurso possibilitará que o <mark>usuário escolha a melhor rota a ser seguida</mark> de
+                        acordo com o destino. Além disso, o usuário será informado dos "passos" que devem ser seguidos,
+                        como por exemplo "Embarcar na Linha 4000, na Avenida Central" ou "Ande 700 metros", e, conforme
+                        os "passos" são antigidos, o usuário poderá marcá-los como concluídos.
+                      </span>
+                    </li>
+                  </section>
+                  <section class="fundo-funcio">
+                    <li>
+                      <span class="marcador-novo"></span>
+                      <span>
+                        <h4>Expansão das linhas e cidades atendidas</h4>
+                        Atualmente, o Expresso Mobilidade atende 922 linhas de 41 municípios da Região Metropolitana de
+                        Belo Horizonte. Nos próximos <span class="palavra-significado" data-toggle='tooltip'
+                          data-placement='top' title="Atualizações de recursos">updates (Atualizações de
+                          recursos),</span> <mark>as linhas municipais das cidades de Contagem e Betim passarão a ser
+                          atendidas.</mark> Posteriormente, outras cidades da RMBH terão suas linhas municipais aqui
+                        também.
+                      </span>
+                    </li>
+                  </section>
+                  <section class="fundo-funcio">
+                    <li>
+                      <span class="marcador-novo"></span>
+                      <span>
+                        <h4>Aplicação das sugestões dos usuários</h4>
+                        Nós reconhecemos o papel e a importância em ouvir os nossos usuários, por isso já de início foi
+                        aberta a Plataforma de Contribuição e Feedback do Usuário para os Desenvolvedores e para a
+                        aplicação. Onde o usuário pode sugerir mudanças e novos recursos para o Expresso e também
+                        informar sobre erros, <span class="palavra-significado" data-toggle="tooltip"
+                          data-placement="top"
+                          title="Falha ou erro num programa informático, dispositivo, site etc., que impede o seu funcionamento correto ou causa um mau desempenho. Fonte: dicio.com.br">bugs</span>
+                        e informações incorretas na aplicação. Através desse recurso e da colaboração dos usuários,
+                        vamos selecionar as melhores e mais pertitenetes ideias e, na medida do possível, colocá-las em
+                        prática.
+                      </span>
+                    </li>
+                  </section>
+                  <section class="fundo-funcio">
+                    <li>
+                      <span class="marcador-novo"></span>
+                      <span>
+                        <h4>Notificações</h4>
+                        Os usuários serão notificados sobre as atualizações nas linhas que eles favoritaram e serão
+                        lembrados para registrarem o uso dos seus cartões de transporte público.
+                      </span>
+                    </li>
+                  </section>
+                </ul>
+            </div>
+            <!-- end of counter -->
+          </div>
+          <!-- end of col -->
+        </div>
+        <!-- end of row -->
+      </div>
+      <!-- end of container -->
+      </div> <!-- end of counter -->
+      <!-- end of  -->
+      <div class="counter" style="padding: 0 20px;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="styles_headline__PYubz">
+                <div class="styles_left__51JzU">
+                  <h3 class="styles_subtitle__a_j68 styles_subtitle__3J8nA">O que o Expresso tem de diferente?</h3>
+                </div>
+              </div>
+              <section class="box-diferenciais-expresso">
+                <div class="box-diferencial">
+                  <span class="box-diferencial-icon"><i class="bi bi-people-fill"></i></span>
+                  <h4 class="box-diferencial-titulo-diferencial">Feito por usuários para usuários</h4>
+                  <div class="conteudo-e-acao">
+                    <p class="box-diferencial-descricao">
+                      Conhecemos os problemas dos usuários de transporte público e sabemos das dificuldades diárias e a
+                      partir disso procuramos facilitar a vida de quem pega ônibus e metrô
+                    </p>
+                    <a href="#" class="box-diferencial-link">Acessar</a>
+                  </div>
+                </div>
+                <div class="box-diferencial">
+                  <span class="box-diferencial-icon"><i class="bi bi-person-workspace"></i></span>
+                  <h4 class="box-diferencial-titulo-diferencial">Fácil de usar</h4>
+                  <div class="conteudo-e-acao">
+                    <p class="box-diferencial-descricao">
+                      O time de desenvolvedores trabalharam para criar uma aplicação que fosse o mais intuivo possível
+                      para os usuários
+                    </p>
+                    <a href="#" class="box-diferencial-link">Acessar</a>
+                  </div>
+                </div>
+                <div class="box-diferencial">
+                  <span class="box-diferencial-icon"><i class="bi bi-stars"></i></span>
+                  <h4 class="box-diferencial-titulo-diferencial">Visual incrível</h4>
+                  <div class="conteudo-e-acao">
+                    <p class="box-diferencial-descricao">
+                      Todo o design do Expresso foi projetado e validado para a melhor experiência do usuário
+                    </p>
+                    <a href="#" class="box-diferencial-link">Acessar</a>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Statistics -->
+      <div class="counter">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="styles_subtitle__a_j68 styles_subtitle__3J8nA">Estatísticas do Expresso</h3>
+              <br>
+              <!-- Counter -->
+              <div id="counter">
+                <div class="cell">
+                  <i class="fa-solid fa-bus fas"></i>
+                  <div class="counter-value number-count" data-count="924">1</div>
+                  <p class="counter-info">Linhas</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fa-solid fa-train-subway fas red"></i>
+                  <div class="counter-value number-count" data-count="62">1</div>
+                  <p class="counter-info">Estações</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fa-solid fa-building fas green-blue"></i>
+                  <div class="counter-value number-count" data-count="3">1</div>
+                  <p class="counter-info">Operadores</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fa-solid fa-shop fas green"></i>
+                  <div class="counter-value number-count" data-count="21637">1</div>
+                  <p class="counter-info">Pontos de Parada</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fa-solid fa-ticket-simple fas yellow"></i>
+                  <div class="counter-value number-count" data-count="70">1</div>
+                  <p class="counter-info">Pontos de Recarga</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fa-solid fa-tree-city fas blue"></i>
+                  <div class="counter-value number-count" data-count="17">1</div>
+                  <p class="counter-info">Cidades atendidas</p>
+                </div>
+                <!-- end of cell -->
+              </div>
+              <span class="text-muted">Dados aproximados captados em 08/12/2022</span>
+              <!-- end of counter -->
+            </div>
+            <!-- end of col -->
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of container -->
+      </div>
+      <!-- end of counter -->
+      <!-- end of statistics -->
+      <section class="conjunto">
+        <div class="con">
+          <div>
+            <span class="texto-descricao">Depoimentos dos nossos usuários*</span>
+          </div>
+          <section class="comentarios">
+            <section class="comments">
+              <div class="comment">
+                <li class="styles_testimony__phaVC" data-aos-delay="100">
+                  <div class="ca">
+                    <div class="styles_authorImage__BZlUj">
+                      <img class="image" alt="" aria-hidden="true" src="./assets/images/contsto-um.png">
+                    </div>
+                    <div class="styles_authorInfo__AjImi">
+                      <h4 class="styles_authorName__oEReV">José Ricardo</h4>
+                      <span class="styles_authorRole__tdKOY">Usuário médio</span>
+                    </div>
+                  </div>
+                  <p class="styles_paragraph__G3DpU styles_content__fc2zs">
+                    <code style="color: #000; font-size: 16px"><span>Muito bom!</span></code><br><br>
+                    Utilizo o Expresso Mobilidade para me locomover entre o trabalho e a faculdade. É muito prático e me
+                    ajuda a economizar tempo! Recomendo!
+                  </p>
+                </li>
+              </div>
+              <div class="comment">
+                <li class="styles_testimony__phaVC" data-aos-delay="100">
+                  <div class="ca">
+                    <div class="styles_authorImage__BZlUj">
+                      <img class="image" alt="" aria-hidden="true" src="./assets/images/contsto-um.png">
+                    </div>
+                    <div class="styles_authorInfo__AjImi">
+                      <h4 class="styles_authorName__oEReV">Antônio Carlos</h4>
+                      <span class="styles_authorRole__tdKOY">Novo usuário</span>
+                    </div>
+                  </div>
+                  <p class="styles_paragraph__G3DpU styles_content__fc2zs">
+                    <code style="color: #000; font-size: 16px"><span>Ótimo!</span></code><br><br>
+                    Estou começando a usar o Expresso Mobilidade e já estou gostando muito. É muito fácil de usar e me
+                    ajuda a me programar melhor para os meus compromissos.
+                  </p>
+                </li>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+      <div class="section-container">
+        <div class="container text-center">
+          <div class="row section-container-spacer">
+            <div class="col-xs-12 col-md-12">
+              <div class="textodescr">
+                <span class="texto-descricao3">Desenvolvido por</span>
+              </div>
+              <p>Conheça nosso time que trabalhou arduamente nesse projeto</p>
+            </div>
+            <!-- end of col-xs-12 -->
+          </div>
+          <!-- end of row -->
+          <div class="row">
+            <div class="col-xs-12 col-md-4">
+              <img src="./assets/images/profil-01.jpg" alt="" class="reveal img-responsive reveal-content image-center"
+                width="200px" height="200px">
+              <h3 class="nomes">Gabriel Ribeiro</h3>
+              <h4>Programador</h4>
+              <p></p>
+            </div>
+            <!-- end of col-xs-12 -->
+            <div class="col-xs-12 col-md-4">
+              <img src="./assets/images/perfil.png" alt="" class="reveal img-responsive reveal-content image-center"
+                width="200px" height="200px">
+              <h3 class="nomes">Samuel Soares</h3>
+              <h4>Web Design e Programador</h4>
+              <p></p>
+            </div>
+            <!-- end of col-xs-12 -->
+            <div class="col-xs-12 col-md-4">
+              <img src="./assets/images/profil-03.jpg" alt="" class="reveal img-responsive reveal-content image-center"
+                width="200px" height="200px">
+              <h3 class="nomes">Luiz Junior</h3>
+              <h4>Colaborador</h4>
+              <p></p>
+            </div>
+            <!-- end of col-xs-12 -->
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of container -->
+      </div>
+      <!-- end of section-container -->
+      <!-- Statistics -->
+      <div class="counter" style="display: none;">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3 class="styles_subtitle__a_j68 styles_subtitle__3J8nA">Estatísticas de Desenvolvimento</h3>
+              <br>
+              <!-- Counter -->
+              <div id="counter">
+                <div class="cell">
+                  <i class="fas fa-solid fa-mug-saucer"></i>
+                  <div class="counter-value number-count" data-count="101">1</div>
+                  <p class="counter-info">Dias de trabalho</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fas fa-code green"></i>
+                  <div class="counter-value number-count" data-count="500">1</div>
+                  <p class="counter-info">Horas de trabalho+</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fas fa-users"></i>
+                  <div class="counter-value number-count" data-count="3">1</div>
+                  <p class="counter-info">Devs</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fas fa-cog red"></i>
+                  <div class="counter-value number-count" data-count="15000">1</div>
+                  <p class="counter-info">Linhas de código</p>
+                </div>
+                <!-- end of cell -->
+                <div class="cell">
+                  <i class="fas fa-rocket blue"></i>
+                  <div class="counter-value number-count" data-count="12">1</div>
+                  <p class="counter-info">Commits no Git</p>
+                </div>
+                <!-- end of cell -->
+              </div>
+              <span class="text-muted">Dados aproximados captados em 08/12/2022</span>
+              <!-- end of counter -->
+            </div>
+            <!-- end of col -->
+          </div>
+          <!-- end of row -->
+        </div>
+        <!-- end of container -->
+      </div>
+      <!-- end of counter -->
+      <!-- end of statistics -->
+      <section class="hero back">
+        <div class="container">
+          <img class="imag" src="./assets/images/un5.svg" alt="" />
+          <div class="texto">
+            <span class="texto-contribuir">
+              Compartilhe o que é <span class="txtazul">bom</span><br>
+            </span>
+            <span class="hashtag-expressomobilidade">#expressoMobilidade</span>
+            <p class="texto-contribuir-descricao">
+              Divulgue a nossa ideia :)
+            </p>
+            <br>
+            <div class="button" id="button-3">
+              <div id="circle"></div>
+              <a onclick="ativarModalCompartilhar()" style="text-decoration: none;"><span class="botaocontribuir"
+                  href="gradient.html">Compartilhar</span></a>
+            </div>
+          </div>
+      </section>
+      <style>
+        .swal2-popup {
+          font-size: 16px !important;
+        }
+
+        .info-modal-p {
+          font-size: 18px;
+          font-weight: 400;
+          margin: 0 15px;
+        }
+      </style>
+      <input type="text" id="link-cmp-exp" value="https://exp.epizy.com Conheça o Expresso Mobilidade :D">
+      <script>
+        function ativarModalCompartilhar() {
+          Swal.fire('<h2>Compartilhar</h2><p class="info-modal-p">Copie o link e envie para os seus contatos ou escaneie o QR Code</p><br><img src="./assets/images/qrcode-exp.svg"></img><br><br><span><button class="btn btn-primary" href="" onclick="copiarLinkAT()">Copiar &nbsp;<i class="bi bi-clipboard"></i></button></span>');
+        }
+
+        function copiarLinkAT() {
+          try {
+            linkE = document.querySelector('#link-cmp-exp');
+            linkE.select();
+            document.execCommand("copy");
+            Swal.fire({ icon: 'success', title: 'Link de compartilhamento copiado', timer: 1500 });
+          } catch {
+            Swal.fire({ icon: 'warning', title: 'Ocorreu um erro ao copiar o link', timer: 2000 });
+          }
+        }
+      </script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+          navbarFixedTopAnimation();
+        });
+      </script>
+      <footer class="footer-container ht white-text-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="row">
+                <div class="col-xs- col-sm-7">
+                  <p>
+                    <span>Website criado com o <a href="http://www.mashup-template.com/"
+                        title="Create website with free html template">Mashup Template</a> e
+                      <a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></span>
+                  </p>
+                  <p class="box-copyright">
+                    <i class="fas fa-copyright" style="color: white"></i>
+                    <span id="year">2022</span> Expresso
+                  </p>
+                </div> <!-- end of col-xs-12 -->
+                <div class="col-xs- col-sm-">
+                  <ul class="wrapper">
+                    <a href="./social/twitter.html" target="_blank" class="icon-link">
+                      <li class="icon twitter">
+                        <span class="tooltip">Twitter</span>
+                        <span><i class="fab fa-twitter"></i></span>
+                      </li>
+                    </a>
+                    <a href="./social/instagram.html" target="_blank" class="icon-link">
+                      <li class="icon instagram">
+                        <span class="tooltip">Instagram</span>
+                        <span><i class="fab fa-instagram"></i></span>
+                      </li>
+                    </a>
+                  </ul>
+                </div> <!-- col-xs-12 -->
+              </div> <!-- row -->
+            </div> <!-- col-xs-12 -->
+          </div> <!-- row -->
+          <section class="">
+            <nav class="box-footer-principal">
+              <div>
+                <h4 class="texto-footer">Sobre nós</h4>
+                <p>Mobilidade: esta é a nossa Missão</p>
+              </div>
+              <div>
+                <h4 class="texto-footer">Institucional</h4>
+                <a href="privacidade.html" id="link-1" onmouseover="internalLink(this.id)"
+                  onmouseout="noLink(this.id)">Política de Privacidade <i id="link-1-i"></i></a>
+                <a href="termos.html" id="link-2" onmouseover="internalLink(this.id)"
+                  onmouseout="noLink(this.id)">Termos e Condições <i id="link-2-i"></i></a>
+              </div>
+              <div>
+                <h4 class="texto-footer">Acesso rápido</h4>
+                <a href="./index.html" id="link-3" onmouseover="internalLink(this.id)" onmouseout="noLink(this.id)">Home
+                  <i id="link-3-i"></i></a>
+                <a href="./signup.html" id="link-4" onmouseover="internalLink(this.id)"
+                  onmouseout="noLink(this.id)">Inscreva-se <i id="link-4-i"></i></a>
+                <a href="./login.html" id="link-5" onmouseover="internalLink(this.id)"
+                  onmouseout="noLink(this.id)">Entrar <i id="link-5-i"></i></a>
+              </div>
+              <div>
+                <h4 class="texto-footer">Redes Sociais</h4>
+                <a href="./social/twitter.html" target="_blank" id="link-11" onmouseover="externalLink(this.id)"
+                  onmouseout="noLink(this.id)">Twitter <i id="link-11-i"></i></a>
+                <a href="./social/instagram.html" target="_blank" id="link-12" onmouseover="externalLink(this.id)"
+                  onmouseout="noLink(this.id)">Instagram <i id="link-12-i"></i></a>
+              </div>
+            </nav>
+          </section>
+        </div>
+        </div> <!-- container -->
+        <section class="box-footer-informacoes-adicionais">
+          <p><span id="year">2022</span> Expresso Mobilidade</p>
+          <!-- Aplicar o ID YEAR para atualizar o ano automaticamente (lado do cliente)-->
+        </section>
+      </footer>
+      <script>
+        document.addEventListener("DOMContentLoaded", function (event) {
+          navActivePage();
+          scrollRevelation('.reveal');
+        });
+      </script>
+      <!-- Scripts -->
+      <script type="text/javascript" src="./assets/js/main.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <!-- jQuery for Bootstrap's JavaScript plugins -->
+      <script src="./assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+      <script src="./assets/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+      <script src="./assets/js/scripts.js"></script> <!-- Custom scripts -->
+      <script src="./assets/js/index.js"></script>
+      <!-- End of scripts -->
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+      <noscript>
+        Este site não funciona com o Javascript desabilitado.
+        <META HTTP-EQUIV="Refresh"
+          CONTENT="0;URL=../interno-expresso/paginas/erros/no-script?redirecionar=institucional">
+      </noscript>
+  </body>
+
+</html>

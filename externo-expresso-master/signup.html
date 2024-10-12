@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="description" name="description">
+    <meta name="google" content="notranslate" />
+    <meta content="Mashup templates have been developped by Orson.io team" name="author">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <meta property="og:title" content="Expresso Mobilidade - Login">
+    <meta property="og:image" content="http://localhost/expresso/externo-expresso/assets/external/expresso-externo.svg">
+    <meta property="og:description"
+      content="O Expresso Mobilidade é um projeto que visa melhorar o dia a dia do usuário de Transporte Público de Belo Horizonte e Região Metropolitana. Com uma interface simples e objetiva e recursos que proporcionam comodidade ao usuário, o Expresso é o mais novo serviço de mobilidade urbana na área">
+    <meta property="og:url" content="#">
+
+    <link href="./assets/images/favicon.svg" rel="icon">
+    <title>Criar Conta - Expresso Mobilidade</title>
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/diferenciais.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+
+  </head>
+
+  <body id="body" data-spy="scroll" data-target=".fixed-top" style="font-family: 'Inter', sans-serif;">
+
+    <div class="overlay">
+      <div class="loader"></div>
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <!-- Content of header -->
+    <header>
+      <nav class="navbar navbar-default active">
+        <div class="container">
+
+          <!-- Menu -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+              aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html" title="">
+              <!-- <img src="./assets/images/favicon.svg" class="navbar-logo-img" alt=""> -->
+              <span>Expresso Mobilidade</span>
+              <!-- Titulo -->
+            </a>
+          </div> <!-- end of navbar-header -->
+          <div class="collapse navbar-collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="menu-um"><a href="./index.html" title="" class="item-link">Home</a></li>
+              <li class="menu-dois menu-ativo"><a href="./signup.html" title="" class="item-link">Inscreva-se</a></li>
+              <li class="menu-tres"><a href="./login.html" title="" class="item-link">Entrar</a></li>
+            </ul>
+          </div> <!-- end of collapse -->
+        </div> <!-- end of colapse -->
+        <!-- end of menu -->
+      </nav>
+    </header>
+    <!-- end content of header-->
+
+    <main>
+      <div class="hero-full-container background-image-container image-3 white-text-container">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 box-hero-full">
+              <div class="conteudo-hero-full">
+                <h1 class=""><span class="text-mobilidade texto-3">inscreva-se_</span></h1>
+                <h2>Crie uma conta - é rápido e de graça <br></h2>
+                <p>
+                  No momento, apenas um número restrito de usuários poderão usar o Expresso Mobilidade. Caso você esteja
+                  interessado clique no botão "Participar do Expresso" e preencha o formulário
+                <p>
+
+                <p>Caso você já tenha uma conta
+                  <a href="./login.html" target="_blank">clique aqui <i
+                      class="fa-solid fa-square-arrow-up-right"></i></a> e entre
+                </p>
+
+                <br>
+                <div class="btn btn-default" id="btn1">
+                  <div id="btn2"></div>
+                  <a href="./participar-do-expresso/" style="text-decoration: none;"><span
+                      class="botaoclicar">Participar do Expresso</span></a>
+                </div>
+              </div> <!-- end of col-xs-12 -->
+              <img src="#" class="imagem-hero-full" alt="">
+            </div>
+          </div> <!-- end of row -->
+        </div> <!-- end of container -->
+      </div> <!-- end of hero-full-container -->
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        navbarFixedTopAnimation();
+      });
+    </script>
+    <footer class="footer-container white-text-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="row">
+              <div class="col-xs- col-sm-7">
+                <p>
+                  <span>Website criado com o <a href="http://www.mashup-template.com/"
+                      title="Create website with free html template">Mashup Template</a> e
+                    <a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></span>
+                </p>
+
+                <p class="box-copyright">
+                  <i class="fas fa-copyright" style="color: white"></i>
+                  <span id="year">2022</span> Expresso
+                </p>
+              </div> <!-- end of col-xs-12 -->
+
+              <div class="col-xs- col-sm-">
+                <ul class="wrapper">
+                  <a href="./social/twitter.html" class="icon-link">
+                    <li class="icon twitter">
+                      <span class="tooltip">Twitter</span>
+                      <span><i class="fab fa-twitter"></i></span>
+                    </li>
+                  </a>
+                  <a href="./social/instagram.html" class="icon-link">
+                    <li class="icon instagram">
+                      <span class="tooltip">Instagram</span>
+                      <span><i class="fab fa-instagram"></i></span>
+                    </li>
+                  </a>
+                </ul>
+              </div> <!-- col-xs-12 -->
+            </div> <!-- row -->
+          </div> <!-- col-xs-12 -->
+        </div> <!-- row -->
+
+        <section class="">
+          <nav class="box-footer-principal">
+            <div>
+              <h4 class="texto-footer">Sobre nós</h4>
+              <p>Mobilidade: esta é a nossa Missão</p>
+            </div>
+
+            <div>
+              <h4 class="texto-footer">Institucional</h4>
+              <a href="privacidade.html" id="link-1" onmouseover="internalLink(this.id)"
+                onmouseout="noLink(this.id)">Política de Privacidade <i id="link-1-i"></i></a>
+              <a href="termos.html" id="link-2" onmouseover="internalLink(this.id)" onmouseout="noLink(this.id)">Termos
+                e Condições <i id="link-2-i"></i></a>
+            </div>
+
+            <div>
+              <h4 class="texto-footer">Acesso rápido</h4>
+              <a href="./index.html" id="link-3" onmouseover="internalLink(this.id)" onmouseout="noLink(this.id)">Home
+                <i id="link-3-i"></i></a>
+              <a href="./signup.html" id="link-4" onmouseover="internalLink(this.id)"
+                onmouseout="noLink(this.id)">Inscreva-se <i id="link-4-i"></i></a>
+              <a href="./login.html" id="link-5" onmouseover="internalLink(this.id)" onmouseout="noLink(this.id)">Entrar
+                <i id="link-5-i"></i></a>
+            </div>
+
+            <div>
+              <h4 class="texto-footer">Redes Sociais</h4>
+              <a href="./social/twitter.html" target="_blank" id="link-11" onmouseover="externalLink(this.id)"
+                onmouseout="noLink(this.id)">Twitter <i id="link-11-i"></i></a>
+              <a href="./social/instagram.html" target="_blank" id="link-12" onmouseover="externalLink(this.id)"
+                onmouseout="noLink(this.id)">Instagram <i id="link-12-i"></i></a>
+            </div>
+          </nav>
+
+        </section>
+      </div>
+      </div> <!-- container -->
+      <section class="box-footer-informacoes-adicionais">
+        <p><span id="year">2022</span> Expresso Mobilidade</p>
+        <!-- Aplicar o ID YEAR para atualizar o ano automaticamente (lado do cliente)-->
+      </section>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function (event) {
+        navActivePage();
+        scrollRevelation('.reveal');
+      });
+    </script>
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="./assets/js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="./assets/js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="./assets/js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="./assets/js/index.js"></script>
+    <!-- End of scripts -->
+
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <noscript>
+      Este site não funciona com o Javascript desabilitado.
+      <META HTTP-EQUIV="Refresh" CONTENT="0;URL=../interno-expresso/paginas/erros/no-script?redirecionar=institucional">
+    </noscript>
+
+  </body>
+
+</html>
