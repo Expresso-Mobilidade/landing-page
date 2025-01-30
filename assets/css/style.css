@@ -5426,7 +5426,6 @@ a.badge:hover {
 .alert.danger {
 	font-size: 16px;
 	background-color: #ca044d4e;
-	border-color: #e90108;
 	color: #e90108
 }
 
